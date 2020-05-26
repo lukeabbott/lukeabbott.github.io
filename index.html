@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luke Abbott - NetSuite Technical Consultant</title>
+</head>
+
+<body>
+  <header>
+    <p>Luke Abbott</p>
+    <p>NetSuite administrator, SuiteScript developer, JavaScript enthusiast.</p>
+  </header>
+  <aside>
+    <h1>Technology Stack</h1>
+    <ul>
+      <li>SuiteScript</li>
+      <li>SuiteFlow</li>
+      <li>Dell Boomi Atomsphere</li>
+      <li>SuiteCommerce</li>
+      <li>NodeJS</li>
+      <li>Amazon Web Services</li>
+    </ul>
+  </aside>
+  <aside>
+    <h1>Projects</h1>
+    <ul>
+      <li>NetSuite Implementation</li>
+      <li>EDI Integration</li>
+      <li>SuiteScript Account Customization</li>
+      <li>SuiteApp Development</li>
+      <li>Custom data exchange from legacy systems to NetSuite</li>
+    </ul>
+  </aside>
+  <h1>Work Tracking Module</h1>
+  <p>A mortgage originator needed a method to track which agent was working on a mortgage opportunity and what the state
+    of that opportunity was. I built an integration between their mortgage origination software and their NetSuite
+    account to provide a single source of truth for their metrics.</p>
+  <h1>JSON Faceted Search</h1>
+  <p>I designed a JSON file based faceted search for an ecommerce site. The site needed a faster search experience so I
+    utilised NetSuite's scheduled scripting functionality to cache item data in JSON files. These files were then used
+    to generate category specific faceted search.</p>
+  <h1>Freight Shipment Tracking</h1>
+  <p>Freight carriers were providing csv files with shipment statuses on a nightly basis. The files needed to be
+    translated into a NetSuite compatible format before import. The import needed to not overwrite previously imported
+    freight data. The process realied on an excel macro that needed to be manually updated for each freight carrier.</p>
+  <p>I converted the excel macro process into a NodeJS application that allowed the user to configure the CSV conversion
+    as needed. The application then connected to a custom NetSuite restlet that handled data validation and importing.
+  </p>
+</body>
+
+</html>

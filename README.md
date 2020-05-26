@@ -1,5 +1,5 @@
 # Luke Abbott
-NetSuite administrator, SuiteScript developer, JavaScript and React enthusiast.
+NetSuite administrator, SuiteScript developer, JavaScript enthusiast.
 ## Technology Stack
 * SuiteScript
 * SuiteFlow
@@ -7,10 +7,13 @@ NetSuite administrator, SuiteScript developer, JavaScript and React enthusiast.
 * SuiteCommerce
 * NodeJS
 * Amazon Web Services
-* WebPack
 
 ## Projects
-Over the last I have worked on a multitude of projects that cover business logic implementations, ecommerce feature additions, EDI integrations, and more.
+* NetSuite Implementation
+* EDI Integration
+* SuiteScript Account Customization
+* SuiteApp Development
+* Custom data exchange from legacy systems to NetSuite
 ### Work Tracking Module
 A mortgage originator needed a method to track which agent was working on a mortgage opportunity and what the state of that opportunity was. I built an integration between their mortgage origination software and their NetSuite account to provide a single source of truth for their metrics.
 ### JSON Faceted Search
